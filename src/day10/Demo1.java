@@ -2,7 +2,7 @@ package day10;
 
 public class Demo1 {
 	public static void main(String[] args) {
-		test();
+		System.out.println(test());
 	}
 	
 	public static int test() {
