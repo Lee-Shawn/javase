@@ -4,7 +4,7 @@ import java.util.LinkedList;
 import java.util.Random;
 
 public class Demo3 {
-	@SuppressWarnings("rawtypes")
+	@SuppressWarnings({ "rawtypes" })
 	public static void main(String[] args) {
 		LinkedList paker = createPaker();
 		System.out.println("洗牌前：");
