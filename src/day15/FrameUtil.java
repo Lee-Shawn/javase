@@ -14,5 +14,6 @@ public class FrameUtil {
 		frame.setBounds((x-width)/2, (y-height)/2, width, height);
 		frame.setVisible(true);
 		frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		frame.setResizable(false);
 	}
 }
