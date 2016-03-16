@@ -36,6 +36,6 @@ public class Demo4 {
 		jm1.add(jm);
 		jm.add(ji);
 		
-		FrameUtil.frame(f, 500, 300);
+		FrameUtil.frame(f, 400, 500);
 	}
 }
