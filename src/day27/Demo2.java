@@ -2,9 +2,16 @@ package day27;
 
 import java.util.Arrays;
 
+import org.junit.AfterClass;
+import org.junit.BeforeClass;
 import org.junit.Test;
 
 public class Demo2 {
+	@BeforeClass
+	public static void beforeTest() {
+		System.out.println("Parparing test development...");
+	}
+	
 	@Test
 	public void sort() {
 		int[] array = {2, 4, 2, 55, 1, 6, 34};
@@ -19,5 +26,10 @@ public class Demo2 {
 		}
 		
 		System.out.println(Arrays.toString(array));
+	}
+	
+	@AfterClass
+	public static void afterTest() {
+		System.out.println("Test ending...");
 	}
 }
